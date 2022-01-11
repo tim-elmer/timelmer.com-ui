@@ -23,10 +23,13 @@
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.15;
   --body-font-color: var(--color-jet-70);
-  --body-font-family: "Roboto", sans-serif;
-  --body-font-weight-bold: 500;
-  --monospace-font-family: "Roboto Mono", monospace;
-  --monospace-font-weight-bold: 500;
+  --body-font-family: "Newsreader", serif;
+  --body-font-weight-bold: 700;
+  --heading-font-family: "Montserrat", normal;
+  --heading-font-weight: 300;
+  --heading-font-weight-bold: 500;
+  --monospace-font-family: "Anonymous Pro", monospace;
+  --monospace-font-weight-bold: 700;
   /* base */
   --body-background: var(--color-white);
   --panel-background: var(--color-smoke-30);
@@ -77,8 +80,7 @@
   --doc-margin: 0 auto;
   --doc-margin--desktop: 0 2rem;
   --heading-font-color: var(--color-jet-80);
-  --heading-font-weight: normal;
-  --alt-heading-font-weight: var(--body-font-weight-bold);
+  --alt-heading-font-weight: var(--heading-font-weight-bold);
   --section-divider-color: var(--panel-border-color);
   --link-font-color: #1565c0;
   --link_hover-font-color: #104d92;

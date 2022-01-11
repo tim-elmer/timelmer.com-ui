@@ -47,6 +47,18 @@ module.exports = (src, dest, preview) => () => {
           return path.join('..', 'font', basename)
         },
       },
+      {
+        filter: '**/@fontsource/*/files/*',
+        url: (asset) => {
+          // console.log(asset)
+          // const relpath = asset.pathname.substr(1)
+          // const abspath = require.resolve(relpath)
+          const basename = ospath.basename(asset.absolutePath)
+          const destpath = ospath.join(dest, 'font', basename)
+          if (!fs.pathExistsSync(destpath)) fs.copySync(asset.absolutePath, destpath)
+          return path.join('..', 'font', basename)
+        },
+      },
     ]),
     postcssVar({ preserve: preview }),
     preview ? postcssCalc : () => {},

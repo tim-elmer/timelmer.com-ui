@@ -1,3 +1,13 @@
+@import "@fontsource/anonymous-pro";
+@import "@fontsource/anonymous-pro/400-italic.css";
+@import "@fontsource/montserrat/300.css";
+@import "@fontsource/montserrat/300-italic.css";
+@import "@fontsource/montserrat/500.css";
+@import "@fontsource/montserrat/500-italic.css";
+@import "@fontsource/newsreader";
+@import "@fontsource/newsreader/400-italic.css";
+@import "@fontsource/newsreader/700.css";
+@import "@fontsource/newsreader/700-italic.css";
 @import "typeface-roboto.css";
 @import "typeface-roboto-mono.css";
 @import "vars.css";
