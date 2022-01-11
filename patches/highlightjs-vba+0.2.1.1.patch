@@ -1,0 +1,13 @@
+diff --git a/node_modules/highlightjs-vba/src/vba.js b/node_modules/highlightjs-vba/src/vba.js
+index 2d7842b..4b1017f 100644
+--- a/node_modules/highlightjs-vba/src/vba.js
++++ b/node_modules/highlightjs-vba/src/vba.js
+@@ -7,7 +7,7 @@ Website: https://docs.microsoft.com/en-us/office/vba/language/reference/keywords
+   https://bettersolutions.com/vba/syntax/keywords.htm
+ */
+ 
+-export default function(hljs) {
++module.exports = function(hljs) {
+   return {
+     name: 'Visual Basic for Applications',
+     aliases: ['vba'],
