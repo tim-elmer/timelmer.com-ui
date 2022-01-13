@@ -36,6 +36,7 @@
   hljs.registerLanguage('yaml', require('highlight.js/lib/languages/yaml'))
   hljs.registerLanguage('excel', require('highlight.js/lib/languages/excel'))
   hljs.registerLanguage('vba', require('highlightjs-vba'))
+  hljs.registerLanguage('powershell', require('highlight.js/lib/languages/powershell'))
   ;[].slice.call(document.querySelectorAll('pre code.hljs')).forEach(function (node) {
     hljs.highlightBlock(node)
   })
