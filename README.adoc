@@ -19,6 +19,8 @@
 :url-nvm-install: {url-nvm}#installation
 :url-source-maps: https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map
 
+IMPORTANT: This repository is a modified downstream hard fork, made public only for licensing reasons. It should be considered unsupported and unmaintained.
+
 image:{img-ci-status}[CI Status (GitLab CI), link={url-ci-pipelines}]
 
 This project is an archetype that demonstrates how to produce a UI bundle that can be used by {url-antora}[Antora] to generated a documentation site.
